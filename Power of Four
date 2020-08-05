@@ -1,4 +1,13 @@
- public boolean isPowerOfFour(int num) {
+Example 1:
+
+Input: 16
+Output: true
+Example 2:
+
+Input: 5
+Output: false
+
+public boolean isPowerOfFour(int num) {
         
       while(num>0){
         if(num==1){
