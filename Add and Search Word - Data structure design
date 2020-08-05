@@ -1,3 +1,14 @@
+Example:
+
+addWord("bad")
+addWord("dad")
+addWord("mad")
+search("pad") -> false
+search("bad") -> true
+search(".ad") -> true
+search("b..") -> true
+
+
 class TrieNode{
     TrieNode[] arr;
     boolean isLeaf;
