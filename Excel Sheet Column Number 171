@@ -1,0 +1,20 @@
+ /* Example 1:
+
+Input: "A"
+Output: 1
+Example 2:
+
+Input: "AB"
+Output: 28
+Example 3:
+
+Input: "ZY"
+Output: 701*/
+
+public int titleToNumber(String s) {
+         int result = 0;
+    for (char c : s.toCharArray()) {
+        result = result * 26 + (c - 'A') + 1;
+    }
+    return result;
+    }
